@@ -1,0 +1,14 @@
+Datatypes 
+
+java is a statically  typed language,meaning you must declare all variable types before they can be used
+This helps to catch errors at  compile time.
+
+primitive Datatypes                                        Reference / Data object type
+1.byte -> value store -127 to 128                          1.String
+2.double                                                   2.Array
+3.short -> value store -32,768 to 32,767                   3.Class objects
+4.boolean
+5.int
+6.char
+7.long
+8.float

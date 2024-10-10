@@ -1,0 +1,64 @@
+Conditional Statements 
+
+1.if statement: Executes a block of code if a specified condition is true.
+syntax:
+ if (condition === true) {
+    System.out.println('Hi')
+}
+
+2.if-else statement: Executes one block of code if a condition is true, and another if it's false.
+syntax:
+if (condition) {
+    // code to be executed if condition is true
+} else {
+    // code to be executed if condition is false
+}
+
+3.else-if statement: Tests multiple conditions. If one of the conditions is true, the corresponding block is executed.
+if (condition1) {
+    // code to be executed if condition1 is true
+} else if (condition2) {
+    // code to be executed if condition2 is true
+} else {
+    // code to be executed if both conditions are false
+}
+
+4.switch statement: Allows a variable to be tested for equality against a list of values.
+
+switch (variable) {
+    case value1:
+        // code to be executed if variable == value1
+        break;
+    case value2:
+        // code to be executed if variable == value2
+        break;
+    default:
+        // code to be executed if none of the cases match
+}
+
+
+java memory storage 
+
+stack,heap,string pool
+
+stack -> integer values stores inside the stack memory
+heap -> object values stores inside the heap memory
+string pool -> String value stores inside the string pool memory
+
+Compare String 
+
+String S1 = new String ("sri");
+String S2 = new String ("sri");
+
+in this above (S1==S2) it returns false ,because the address/object of the storing data is different 
+
+String s1 = "sri";
+String s2 = "sri";
+
+in this above (s1==s2) because both the s1 and s2 values point to the single data name as sri
+
+ternary operator without using if conditional
+
+String result = number < 35 ? true : false
+
+
